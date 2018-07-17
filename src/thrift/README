@@ -1,0 +1,6 @@
+#/bin/bash
+
+thrift -r --gen cpp -out ./ tis.thrift &&\
+thrift -r --gen cpp -out ./ identity.thrift &&\
+
+rm ./*skeleton*

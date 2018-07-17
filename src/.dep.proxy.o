@@ -1,0 +1,7 @@
+proxy.o: proxy.cpp proxy.h common/processor.h common/client_info.h \
+ common/list.h utils/timer.h common/../connection/connection_pool.h \
+ common/../connection/connection.h async_server.h common/log.h proto.h \
+ utils/singleton.h utils/mempool.h common/list.h \
+ connection/connection_pool.h base/thread_pool.h \
+ handler/tis_proto_handler.h thrift/TisService.h thrift/tis_types.h \
+ handler/cmd_handler.h
